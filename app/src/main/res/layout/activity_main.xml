@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/bg_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="数据录入"
+        android:textColor="@color/bg_48"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/bg_huise"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bg_48"
+            android:textSize="16sp"
+            android:layout_margin="15dp"
+            android:text="燃气表号："/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <EditText
+                android:id="@+id/et_serialNo"
+                android:layout_toLeftOf="@+id/iv_saoyisao"
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:cursorVisible="true"
+                android:maxLength="9"
+                android:hint="请输入燃气表号"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/bg_content"/>
+
+            <ImageView
+                android:id="@+id/iv_saoyisao"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_width="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/saoyisao"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <!--具体门牌号 输入择-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <!--楼号-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/bg_48"
+                android:layout_gravity="center_horizontal"
+                android:text="楼号"/>
+            <EditText
+                android:id="@+id/et_louhao__edit_son"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp"
+                android:background="@null"
+                android:inputType="number"
+                android:gravity="center_horizontal"
+                android:hint="请输入"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/line_e"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent"></View>
+
+        <!--单元-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/bg_48"
+                android:layout_gravity="center_horizontal"
+                android:text="单元"/>
+            <EditText
+                android:id="@+id/et_danyua__edit_son"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:inputType="number"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:hint="请输入"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/line_e"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent"></View>
+        <!-- 门牌号 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/bg_48"
+                android:layout_gravity="center_horizontal"
+                android:text="门牌号"/>
+            <EditText
+                android:id="@+id/et_menpai__edit_son"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp"
+                android:background="@null"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:hint="请输入"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/bg_content">
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+              <TextView
+                  android:id="@+id/tv_saosao2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:layout_margin="12dp"
+                  android:text="通讯底盒"
+                  android:textColor="@color/bg_48"/>
+
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:gravity="center_vertical"
+                  android:layout_marginTop="12dp"
+                  android:layout_height="wrap_content">
+
+                  <ImageView
+                      android:id="@+id/iv_saoyisao2"
+                      android:layout_centerVertical="true"
+                      android:layout_alignParentRight="true"
+                      android:layout_gravity="center_vertical"
+                      android:layout_width="25dp"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginRight="15dp"
+                      android:layout_height="25dp"
+                      android:src="@mipmap/saoyisao"/>
+
+              </RelativeLayout>
+
+
+          </RelativeLayout>
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="2px"-->
+            <!--android:background="@color/bg_huise"></View>-->
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/bg_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:hint="请输入模组号"
+            android:singleLine="false"
+            android:lineSpacingExtra="5dp"
+            android:id="@+id/et_mozu"
+            android:textColor="@color/bg_48"
+            android:textSize="16sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/bg_huise"></View>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/bg_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:hint="请输入SIM号"
+            android:id="@+id/et_SIM"
+            android:textColor="@color/bg_48"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/btn_submit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/bg_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="35dp"
+        android:text="提交数据"
+        android:background="@drawable/button_press"/>
+
+
+
+
+</LinearLayout>

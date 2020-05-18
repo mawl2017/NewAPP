@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.monians.xlibrary">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+
+</manifest>

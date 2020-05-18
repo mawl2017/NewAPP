@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="bg_page">#eee</color>
+    <color name="bg_content">#fff</color>
+    <color name="bg_date">#b2b2b2</color>
+    <color name="bg_huise">#ECE5E5</color>
+    <color name="bg_huise2">#00ECE5E5</color>
+    <color name="bg_huise3">#f9f9f9</color>
+    <color name="app_color">#6DD826</color>
+    <color name="text_color">#646464</color>
+    <color name="text_huise">#66696B</color>
+
+
+    <!-- 字体颜色 -->
+    <color name="text_3">#717171</color>
+    <color name="text_4">#AAB2B7</color>
+    <color name="text_6">#666666</color>
+    <color name="text_9">#999999</color>
+    <color name="line_d">#ddd</color>
+    <color name="line_e">#F7F7F7</color>
+    <color name="line_b">#F7F7F7</color>
+    <color name="text_f">#fff</color>
+    <color name="bg_blue">#46c771</color>
+    <color name="text_green">#1bb731</color>
+
+    <color name="blue2">#55AAEB</color>
+    <color name="yellow2">#FFB432</color>
+    <color name="bg_48">#2C3032</color>
+    <color name="bg_47">#474747</color>
+    <color name="text_red">#ff2a1f</color>
+    <color name="text_5b">#5bbcec</color>#
+
+    <color name="text_main_red">#f64000</color>
+    <color name="text_main_green">#1bb731</color>
+    <color name="text_main_yellow">#ffc000</color>
+    <color name="color_317CB8">#317CB8</color>
+    <color name="color_1b4f79">#1b4f79</color>
+    <color name="text_d7">#d7d7d7</color>
+    <color name="text_1bb731">#1bb731</color>
+    <color name="swith_bg_press">#cbcbcb</color>
+    <color name="pull_to_refresh_bg_color">#f6f6f6</color>
+    <color name="timeline_home_bg_color">#f6f6f6</color>
+    <color name="pull_to_refresh_tips_color">#5bbcec</color>
+    <color name="pull_to_refresh_time_color">#706F6F</color>
+    <color name="loading_bar_text_color">#737373</color>
+    <color name="color_orage">#ff711b</color>
+
+    <color name="list_title_color">#5bbcec</color>
+
+    <color name="title_bar_bg">#22292c</color>
+    <color name="title_bar_text">#ffffff</color>
+
+    <color name="dialog_title_text_color">#13b791</color>
+
+    <color name="list_state_offline">#ff0000</color>
+    <color name="list_state_online">#6ccdb3</color>
+    <color name="back_huise">#F7F7F7</color>
+
+
+    <color name="list_state_text_color">#999999</color>
+    <color name="article_edit_title_bg">#888888</color>
+    <color name="article_edit_title_text">#000000</color>
+
+    <color name="edit_border_color">#cccccc</color>
+
+    <color name="device_detail_service">#cccccc</color>
+    <color name="device_detail_character">#ffffff</color>
+    <color name="color_main_green_normal">#46c771</color>
+    <color name="color_main_text_71">#474747</color>
+
+    <color name="navpage">#FFE1E8EB</color>
+
+    <color name="colorRulerViewScale">#070705</color>
+    <color name="colorRulerViewPointer">#070705</color>
+    <color name="colorRulerViewLabel">#070705</color>
+    <color name="colorRulerViewBackground">#FAC331</color>
+
+    <!--  //进度条颜色-->
+    <color name="pb1">#E1FAE9</color>
+    <color name="green">#46c771</color>
+    <color name="green2">#BBFFFF</color>
+    <color name="green3">#00ff00</color>
+    <color name="newcolor">#FFA045</color>
+
+    <!-- 地图 压力颜色-->
+    <color name="pres_bluee">#3162CB</color>
+    <color name="pres_red">#FF4E1B</color>
+    <color name="pres_blue">#1AA2CB</color>
+    <color name="pres_green">#46C771</color>
+    <color name="pres_oragen">#FFA045</color>
+
+
+
+
+
+    <color name="pb2">#E5F4FF</color>
+    <color name="pb2_color">#55AAEB</color>
+
+    <color name="pb3">#FFF6E5</color>
+    <color name="pb3_color">#FFB432</color>
+
+    <color name="nodeColor">#cccccc</color>
+    <color name="nodeTextColor">#00bcb4</color>
+
+
+    <!--空气质量-->
+
+    <color name="air_you">#2dcd2e</color>
+    <color name="air_liang">#eac411</color>
+    <color name="air_qingwu">#f38316</color>
+    <color name="air_zhong1">#dc5f22</color>
+    <color name="air_zhong2">#bc4125</color>
+    <color name="air_yanzhong">#862818</color>
+
+
+    <!--关爱老人 联系人 身份 颜色-->
+    <color name="oldman_red">#FF8264</color>
+    <color name="oldman_yellow">#FFBD5C</color>
+    <color name="oldman_blue">#6BABF8</color>
+    <color name="oldman_green">#47C772</color>
+    <color name="oldman_huise">#B5C2D2</color>
+
+
+</resources>

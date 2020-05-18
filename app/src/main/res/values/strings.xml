@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">数据录入</string>
+
+
+    <string name="rationale_ask_again">这个程序可能无法正确工作没有请求的权限。打开应用程序设置修改应用程序的权限。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+
+</resources>
